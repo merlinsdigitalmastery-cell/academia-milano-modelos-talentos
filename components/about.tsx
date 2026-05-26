@@ -197,8 +197,8 @@ export default function About() {
               transition={{ delay: 0.5 }}
               className="text-gray-700 leading-relaxed mb-4 sm:mb-6 text-base sm:text-lg"
             >
-              En Agencia Milano Talento formamos y proyectamos talentos desde infantes hasta adultos, 
-              preparandolos para el mercado profesional en distintas areas artisticas y de entretenimiento.
+              Milano Talento es una agencia de modelos y talentos que representa y proyecta 
+              profesionales desde infantes hasta adultos en distintas areas artisticas y de entretenimiento.
             </motion.p>
             
             <motion.p
@@ -207,7 +207,7 @@ export default function About() {
               transition={{ delay: 0.6 }}
               className="text-gray-700 leading-relaxed mb-4 sm:mb-6 text-base sm:text-lg"
             >
-              La agencia ya ofrece talentos al mercado y recibe postulaciones de nuevos talentos 
+              La agencia ofrece talentos al mercado y recibe postulaciones de nuevos talentos 
               que buscan oportunidades reales de trabajo y desarrollo en la industria.
             </motion.p>
 
@@ -218,8 +218,8 @@ export default function About() {
               className="text-gray-700 leading-relaxed mb-6 sm:mb-8 text-base sm:text-lg"
             >
               Representamos bailarines, actores, cantantes, extras de cine y TV, anfitriones, 
-              teams, promotores y modelos, dandoles oportunidades reales para desarrollarse 
-              y proyectarse en la industria.
+              teams, promotores y modelos, brindandoles oportunidades reales para desarrollarse 
+              y proyectarse en la industria del entretenimiento.
             </motion.p>
 
             {/* CTA Button */}

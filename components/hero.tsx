@@ -17,7 +17,7 @@ const slides = [
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1%20%284%29-LFsxyZuaBDT2U0TYVsHBWtPGlBo6aP.jpg",
     title: "Backstage",
-    subtitle: "Formacion profesional integral.",
+    subtitle: "Representacion profesional integral.",
   },
   {
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-03%20at%207.23.14%20AM-0c9nkdmhc6KaudK5gNOkp08aps0XvF.jpeg",

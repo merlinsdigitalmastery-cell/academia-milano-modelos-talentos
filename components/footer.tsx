@@ -191,8 +191,8 @@ export default function Footer() {
               />
             </motion.div>
             <p className="text-gray-400 leading-relaxed max-w-md mb-4 sm:mb-6 text-sm sm:text-base">
-              Agencia internacional que forma y proyecta talentos en Chile y el mundo. 
-              Representamos bailarines, actores, cantantes, modelos y mas. Tu carrera empieza aqui.
+              Agencia internacional de modelos y talentos que representa y proyecta profesionales en Chile y el mundo. 
+              Bailarines, actores, cantantes, modelos y mas. Tu carrera empieza aqui.
             </p>
             
             {/* Social Links */}
@@ -313,6 +313,9 @@ export default function Footer() {
         >
           <p className="text-gray-500 text-xs sm:text-sm text-center sm:text-left">
             © {new Date().getFullYear()} Milano Talento. Todos los derechos reservados.
+          </p>
+          <p className="text-gray-600 text-xs text-center sm:text-left">
+            Web desarrollada por <a href="https://merlinsmkt.com" target="_blank" rel="noopener noreferrer" className="text-[#d4af37] hover:underline">Agencia MerlinsMKT</a>
           </p>
           <div className="flex gap-4 sm:gap-6">
             <motion.a 

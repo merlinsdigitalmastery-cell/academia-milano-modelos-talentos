@@ -9,7 +9,7 @@ const teamMembers = [
   {
     name: "Henrry Klosen",
     role: "Gerente General",
-    description: "Visionario y lider en la formacion de talentos y modelos para el mercado profesional nacional e internacional.",
+    description: "Visionario y lider en la representacion de talentos y modelos para el mercado profesional nacional e internacional.",
     phone: "+56 9 8259 4046",
     whatsapp: "56982594046",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/HENRRY-x2PWhkby99cMXiDF2ENW3NcnjWVuwJ.jpeg",
@@ -20,7 +20,7 @@ const teamMembers = [
     description: "Liderando la agencia hacia nuevas oportunidades en el mercado nacional e internacional.",
     phone: "+56 9 2192 1474",
     whatsapp: "56921921474",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MARTIN-tzkOv09JWYMpPR3D5hTanxXMSwzHnU.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-26%20at%2004.29.11-H1ZpHcutWPkYk8Wi3whx5Z3gRhlJfJ.jpeg",
   },
 ]
 
@@ -95,7 +95,7 @@ export default function Equipo() {
                       src={member.image}
                       alt={member.name}
                       fill
-                      className="object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
+                      className="object-cover object-top transition-all duration-700"
                     />
                     
                     {/* Overlay */}

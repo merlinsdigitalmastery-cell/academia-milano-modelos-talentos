@@ -12,6 +12,11 @@ import "swiper/css/pagination"
 
 const galleryImages = [
   {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-eKEHxBvj8bLSRZloKykT7IhSEPDuFJ.jpg",
+    alt: "Modelos vestido rojo pasarela",
+    category: "Pasarela",
+  },
+  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-13%20at%2011.29.29-vUKOOI1oO38veYG2kLpHI3B2lWT7yT.jpeg",
     alt: "Miss Mundo Chile",
     category: "Concursos",
@@ -22,7 +27,7 @@ const galleryImages = [
     category: "Editorial",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-13%20at%2013.13.14-2dd2TgWxe8kRrXbhU4VEbrokECeLs2.jpeg",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-26%20at%2004.29.11-H1ZpHcutWPkYk8Wi3whx5Z3gRhlJfJ.jpeg",
     alt: "Modelo masculino elegante",
     category: "Editorial",
   },
@@ -85,11 +90,6 @@ const galleryImages = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1%20%284%29-LFsxyZuaBDT2U0TYVsHBWtPGlBo6aP.jpg",
     alt: "Grupo de modelos",
     category: "Editorial",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MIIS%20ESCOLAR%201%20ER%20LUGAR%20%281%29-NhAyQf1czx3RWRzn4rQcuABXYxUfGC.jpg",
-    alt: "Miss Escolar",
-    category: "Eventos",
   },
 ]
 
