@@ -79,7 +79,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 sm:h-20">
+        <div className="flex items-center justify-between h-20 sm:h-24 lg:h-28">
           {/* Logo */}
           <motion.a
             href="#inicio"
@@ -88,17 +88,47 @@ export default function Header() {
             whileTap={{ scale: 0.95 }}
           >
             <motion.div
-              initial={{ opacity: 0, rotate: -10 }}
-              animate={{ opacity: 1, rotate: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
+              animate={{ 
+                opacity: 1, 
+                scale: 1, 
+                rotate: 0,
+                y: [0, -6, 0]
+              }}
+              transition={{ 
+                duration: 0.6, 
+                delay: 0.2,
+                y: {
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  delay: 0.8
+                }
+              }}
+              className="relative"
             >
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-03%20at%207.23.13%20AM-GXy0ncJNiAUUMKI05DyMnXdzChLGu2.jpeg"
-                alt="Milano Talento"
-                width={180}
-                height={60}
-                className="h-10 sm:h-14 w-auto object-contain"
-                priority
+              <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full overflow-hidden border-2 border-[#d4af37] shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:shadow-[0_0_30px_rgba(212,175,55,0.6)] transition-shadow duration-500">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-04-03%20at%207.23.13%20AM-GXy0ncJNiAUUMKI05DyMnXdzChLGu2.jpeg"
+                  alt="Milano Talento"
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover"
+                  priority
+                />
+              </div>
+              {/* Anillo dorado animado */}
+              <motion.div
+                className="absolute inset-0 rounded-full border border-[#d4af37]/40"
+                animate={{ 
+                  scale: [1, 1.15, 1],
+                  opacity: [0.5, 0, 0.5]
+                }}
+                transition={{
+                  duration: 2.5,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
               />
             </motion.div>
           </motion.a>
